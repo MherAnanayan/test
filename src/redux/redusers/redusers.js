@@ -15,10 +15,7 @@ const countReduser = (state = Initial_State, action) => {
             return {
                 count: action.add
             };
-        case DECREMENT_COUNT:
-            return {
-                count: action.remove
-            };
+       
         case PREV_COUNT:
             return {
                 ...state,
